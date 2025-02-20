@@ -4,7 +4,7 @@ public class Demo {
         lowPriority.processRequest("Low", "28-2-2025", "Pending");
 
         RequestCreator midPriority = new MidPriorityConcreteCreator();
-        midPriority.processRequest("Mid", "1-3-2025", "Pending");
+        midPriority.processRequest("Mid", "14-7-2025", "Pending");
 
         RequestCreator highPriority = new HighPriorityConcreteCreator();
         highPriority.processRequest("High", "18-12-2025", "Pending");

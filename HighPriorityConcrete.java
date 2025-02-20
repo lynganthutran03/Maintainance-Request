@@ -24,7 +24,7 @@ public class HighPriorityConcrete implements RequestProduct {
 
     @Override
     public void setExpireDay(String expireDay) {
-        this.expireDay = java.time.LocalDate.now().toString();
+        this.expireDay = expireDay;
     }
 
     @Override
