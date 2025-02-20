@@ -3,10 +3,10 @@ public class HighPriorityConcrete implements RequestProduct {
     private String expireDay;
     private String status;
 
-    public HighPriorityConcrete(String priority, String expireDay, String status) {
-        setStatus(status);
-        setExpireDay(expireDay);
-        setPriority(priority);
+    public HighPriorityConcrete() {
+        setStatus("");
+        setExpireDay("");
+        setPriority("");
     }
 
     public String getStatus() {

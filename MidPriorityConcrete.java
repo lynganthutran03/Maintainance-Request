@@ -3,10 +3,10 @@ public class MidPriorityConcrete implements RequestProduct{
     private String expireDay;
     private String status;
 
-    public MidPriorityConcrete(String priority, String expireDay, String status) {
-        setStatus(status);
-        setExpireDay(expireDay);
-        setPriority(priority);
+    public MidPriorityConcrete() {
+        setStatus("");
+        setExpireDay("");
+        setPriority("");
     }
 
     public String getStatus() {
